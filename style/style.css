@@ -12,6 +12,8 @@
    justify-content: space-between;
    padding: 12px 20px;
    position: sticky;
+   top: 0;
+   background-color: rgb(250, 246, 243);
 }
 body{
     display: flex;
@@ -58,4 +60,199 @@ nav > ul {
 a{
   text-decoration: none;
   color: inherit;
+}
+
+.filter{
+  
+  
+ overflow: hidden;
+  padding: 20px 0px 20px 60px;
+}
+
+.filter form {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+}
+.filter form>div {
+  flex-shrink: 0;
+
+}
+.filter form input , .filter form select {
+  padding: 12px 16px;
+  border-radius: 37px;
+  background-color: white;
+  font-size: 1.1rem;
+
+
+}
+.filter form input{
+  width: 360px;
+}
+.searchBar{
+  position: relative;
+}
+.filter form .searchIcon{
+  position: absolute;
+  top: 13.5px;
+  right: 15px;
+  z-index: 10;
+}
+.herosection {
+  min-height: 100vh;
+  border: 1px solid black;
+  display: grid;
+  padding: 30px 60px;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+
+}
+.cardWhite {
+  grid-row: span 3;
+  grid-column: span 2;
+  border-radius: 37px;
+  padding: 24px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  overflow: hidden;
+  
+
+}
+.cardWhite h1{
+  font-size: 2.6rem;
+font-weight: 600;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.cardWhite p {
+  font-size: 1rem;
+  line-height: 1.5;
+  max-width: 90%;
+  margin: 14px 0px;
+}
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+.shopnow {
+  padding: 14px 28px;
+  background: #000;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.arrow {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gradntCard {
+  grid-row: span 3;
+  grid-column: span 2;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background: linear-gradient(180deg, #D7EBEB 14.69%, #F4AFE9 55.52%, #9D7EF3 100%);
+  border-radius: 37px;
+
+}
+.gradntCard img {
+  width: 105%;
+  object-fit: cover;
+}
+
+
+.lastcard{
+  grid-column: span 4;
+  display: flex;
+  gap: 20px;
+}
+
+
+.lastcard img {
+  width: 340px;
+  height: 160px;
+  border-radius: 37px;
+}
+
+.Million {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.message {
+  font-size: 16px;
+  max-width: 500px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.Iconrow {
+  align-self: flex-end;
+  flex-basis: 35%;
+  justify-content: end;
+
+}
+
+.Iconrow img {
+  border-radius: 50%;
+  margin-right: -14px;
+}
+.cardbottom{
+  display: flex;
+}
+.cardbottom .cardbottom_left{
+  flex-basis: 65%;
+}
+.laststep{
+  background-color:white;
+  border-radius: 37px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 12px 20px;
+  gap: 12px;
+
+}
+.lastcard div{
+  flex-grow: 1;
+}
+.lastcard img{
+  width: 100%;
+  height: 100%;
+}
+.laststep h2{
+font-weight: 600;
+font-size: 24px;
+line-height: 100%;
+text-align: center;
+justify-content: center;
+
+
+}
+.laststep button{
+  padding: 14px 28px;
+  background: #000;
+  color:white;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  
+  align-items: center;
+  
 }
