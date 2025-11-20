@@ -25,6 +25,17 @@ main{
     flex-grow: 1;
 }
 
+section {
+    padding: 3.5em 60px;
+}
+
+section h2 {
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
 #burger_menu {
   display: none;
 }
@@ -101,7 +112,7 @@ a{
 }
 .herosection {
   min-height: 100vh;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: grid;
   padding: 30px 60px;
   gap: 20px;
@@ -113,7 +124,7 @@ a{
   grid-row: span 3;
   grid-column: span 2;
   border-radius: 37px;
-  padding: 24px;
+  padding: 30px;
   background-color: white;
   display: flex;
   justify-content: space-between;
@@ -123,17 +134,19 @@ a{
 
 }
 .cardWhite h1{
-  font-size: 2.6rem;
+  font-size: 3rem;
 font-weight: 600;
 line-height: 100%;
 letter-spacing: 0%;
+margin-bottom: 30px;
 
 }
 .cardWhite p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.5;
   max-width: 90%;
   margin: 14px 0px;
+  margin-bottom: 30px;
 }
 .buttonContainer {
   display: flex;
@@ -256,3 +269,309 @@ justify-content: center;
   align-items: center;
   
 }
+.category_list {
+    padding: 24px 60px;
+}
+
+.category_list header {
+    margin-bottom: 3em;
+}
+
+.category_list h2 {
+    font-size: 2rem;
+    /* font-weight: 600; */
+}
+
+.category_list .container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.category_list figure {
+    flex: 1;
+}
+
+.category_list figure img {
+    width: 100%;
+    height: 440px;
+    border-radius: 37px;
+}
+
+.category_list figcaption {
+    margin-top: 12px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+
+.Popular_product {
+    padding: 3.5em 60px;
+}
+
+.Popular_product header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.5em;
+}
+
+.Popular_product header button {
+    border-radius: 24px;
+    padding: 0.8em 1.4em;
+    background-color: white;
+    color: #000;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.Popular_product header button.active {
+    background-color: #000;
+    color: white;
+    border-color: #000;
+}
+
+.Popular_product .container {
+    display: flex;
+    gap: 24px;
+    align-items: stretch;
+}
+
+.Popular_product .popular_card1 {
+    flex: 1;
+}
+
+.Popular_product .popular_card2 {
+    flex: 2;
+}
+
+.Popular_product .popular_card3 {
+    flex: 1;
+}
+
+.Popular_product figure {
+    /* background: #fff; */
+
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Popular_product figure figcaption {
+    display: flex;
+    justify-content: space-between;
+
+}
+.Popular_product figure img {
+    width: 100%;
+    height: 440px;
+        border-radius: 37px;
+}
+.Popular_product figure figcaption img.sidearrow {
+    width: 20px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+
+
+
+.lamy_inspiration {
+    padding: 60px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.inspire_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 200px;
+}
+
+.inspire_row.reverse {
+    flex-direction: row-reverse;
+}
+
+.inspire_img img {
+    border-radius: 37px;
+    /* width: 170%;; */
+}
+.inspire_text h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.inspire_text p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+.inspire_btn {
+    padding: 12px 26px;
+    border: 1.5px solid #000;
+    background-color: transparent;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+.why_us .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5em;
+    opacity: 1;
+    border-radius: 37px;
+    padding: 24px;
+}
+
+.why_us .container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+    background-color: #fff;
+    border-radius: 37px;
+    padding: 2em;
+    min-width: 220px; 
+    min-height: 300px;
+    justify-content: space-between;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.why_us .container div img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+.cta {
+    margin: 2em 60px;
+    border-radius: 37px;
+    background: transparent url('../assets/image10.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.cta .container {
+    background: #fff;
+    padding: 4em 3em;
+    border-radius: 37px;
+    display: flex;
+    gap: 1.5em;
+}
+
+
+.cta .right {
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.cta .left {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+
+.cta .left p {
+    max-width: 80%;
+}
+
+.cta form div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    margin-bottom: 1.2em;
+}
+
+
+.cta form input {
+    padding: 1em;
+}
+.cta form button{
+  padding: 14px 28px;
+  background: #000;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.footer {
+    background: white;
+    border-radius: 37px;
+    margin-top: 4rem;
+        margin: 2em 60px;
+    padding: 3.5em 60px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 3em;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-col h3 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 6px;
+    cursor: pointer;
+    font-size: 0.95rem;
+}
+
+.footer-col ul li:hover {
+    text-decoration: underline;
+}
+
+.logo-col {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-logo {
+    width: 240px;
+}
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social-icons img {
+    width: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+.payment-icons img {
+    width: 40px;
+    margin-right: 10px;
+}
+
